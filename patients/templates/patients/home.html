@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICUPredict</title>
+    <link rel="stylesheet" href="{% static 'patients/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <h1>ICUPredict</h1>
+        <ul>
+            <li><a href="{% url 'add_patient' %}" class="btn">Add Patient</a></li>
+            <li><a href="{% url 'view_patient' %}" class="btn">View Patient</a></li>
+            <li><a href="{% url 'dashboard' %}" class="btn">Dashboard</a></li>
+        </ul>
+    </div>
+</body>
+</html>
